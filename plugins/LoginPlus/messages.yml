@@ -1,0 +1,51 @@
+global:
+  prefix: '&8[&6Login&ePlus&8] &7'
+error:
+  already_loggedin: '&cAnother User with the same Account is already logged in'
+  banned: '&7Youre currently &cbanned &7for Login, please try again in &c%BanTime%
+    &7Seconds.'
+  timer_over: '&7The Timer is up! You can reconnect and try again in &c%Reconnect-Time%
+    &7Seconds!'
+  captcha_failed: '&cCaptcha failed'
+  permission: '&cYou''re not permitted to use this command'
+  arguments: '&cWrong Arguments'
+  player_offline: '&cThis player is offline!'
+timer:
+  info: '&7You have &c%Time% &7Seconds to log into your Account'
+ban:
+  info: '&7You have been banned for &c%Time% &7Seconds'
+title:
+  login:
+    title: '&cPlease log in'
+    subtitle: '&6Enter your password into the Chat'
+  register:
+    title: '&cPlease register'
+    subtitle: '&6Enter your password into the Chat'
+  register_success:
+    title: '&aSuccessfully registered'
+    subtitle: '&6Your Account has successfully been registered'
+  login_success:
+    title: '&aSuccessfully logged in'
+    subtitle: '&7You can play now'
+  login_session:
+    title: '&aYour Session was detected'
+    subtitle: '&7You can play now'
+  login_failed:
+    title: '&cIncorrect Password'
+    subtitle: '&7You have &c%Attempts% &7Attempts left'
+  change_password:
+    title: '&cChange password'
+    subtitle: '&6Enter your password into the Chat'
+  change_password_success:
+    title: '&aPassword has been changed'
+    subtitle: '&6Your Password has successfully been changed'
+captcha:
+  inventory:
+    name: '&4Captcha'
+    dont_click: '&7Dont click'
+    change: '&4Change'
+    changed: '&aChanged'
+premium:
+  disabled: '&6Premium&7-Function has been &cdisabled'
+  enabled: '&6Premium&7-Function has been &aenabled'
+  'no': '&7Your Account is not an Premium-Account!'

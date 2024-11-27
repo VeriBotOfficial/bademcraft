@@ -1,0 +1,40 @@
+timer:
+  enabled: true
+  time: 60
+login:
+  max_attempts: 3
+  ban:
+    enabled: true
+    time: 120
+  kick:
+    enabled: true
+  commands:
+    enabled: false
+    commands:
+    - kick %Player%
+reconnect_time:
+  enabled: true
+  time: 30
+captcha:
+  enabled: false
+  login: true
+  register: true
+title:
+  time: 5
+encryption:
+  type: ARGON_2
+  tasks: 5
+  argon2:
+    iterations: 1
+    memory: 16
+    parallelism: 8
+  scrypt:
+    parallelism: 8
+  pdkdf2:
+    secret: ''
+    iterations: 185000
+  bcrypt:
+    strength: 14
+sessions:
+  enabled: false
+  time: 300
